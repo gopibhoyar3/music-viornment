@@ -1,0 +1,56 @@
+a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color:#000;
+}
+
+.navbar {
+    font-size: 50px;
+    /* font-family: 'Rouge Script', cursive; */
+    color: #000;
+    font-family: 'Rouge Script, cursive';
+    font-weight: normal;
+    margin: 10px 10px 10px 30px;
+    line-height: 48px;
+}
+
+.image{
+    margin:0px 8px -10px -16px;
+    height:50px;
+    width:50px;
+}
+
+.sound-picker{
+    display:grid;
+    margin:200px 100px 0px 400px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+hr{
+    height:2px;
+    border-width:0;
+    color:black;
+    background-color:black;
+}
+.animate-me {
+    -webkit-animation: bgcolorchange 4s infinite; /* Chrome, Safari, Opera */ 
+    animation: 80s infinite bgcolorchange;
+  }
+  @keyframes bgcolorchange {
+    0% {
+      background-color: rgb(197, 132, 132);
+    }
+    25% {
+      background-color: rgb(214, 188, 163);
+    }
+    50% {
+      background-color: rgb(231, 231, 158);
+    }
+    75% {
+      background-color: rgb(212, 154, 188);
+    }
+    100% {
+      background-color: rgb(173, 134, 185);
+    }
+  }
